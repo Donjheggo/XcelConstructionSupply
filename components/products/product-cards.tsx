@@ -47,11 +47,11 @@ export default function ProductCards() {
       </AnimatePresence>
       <AnimatePresence>
         {active && typeof active === "object" ? (
-          <div className="mx-2 fixed inset-0 overflow-y-auto grid place-items-center z-[100]">
+          <div className="m-2 fixed inset-0 overflow-y-auto grid place-items-center z-[100]">
             <motion.div
               layoutId={`card-${active.title}-${id}`}
               ref={ref}
-              className="w-full max-w-[500px] h-auto md:h-fit max-h-[90%] flex flex-col bg-white dark:bg-neutral-900 rounded-xl overflow-hidden"
+              className="w-full max-w-[500px] md:h-fit max-h-[100%] flex flex-col bg-white dark:bg-neutral-900 rounded-xl overflow-hidden"
             >
               <motion.div layoutId={`image-${active.title}-${id}`}>
                 <div className="relative">
@@ -99,7 +99,7 @@ export default function ProductCards() {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
-                  className="text-neutral-600 text-xs md:text-sm lg:text-base h-40 md:h-fit pb-10 flex flex-col items-start gap-4 overflow-auto dark:text-neutral-400 [-webkit-overflow-scrolling:touch]"
+                  className="text-neutral-600 text-sm md:text-base max-h-[30vh] overflow-y-auto dark:text-neutral-400 [-webkit-overflow-scrolling:touch]"
                 >
                   {active.description}
                   <ProductTable
