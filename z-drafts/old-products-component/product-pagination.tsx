@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/pagination";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { usePathname, useSearchParams } from "next/navigation";
-import { Button } from "../ui/button";
+import { Button } from "../../components/ui/button";
 import Link from "next/link";
 
 export default function ProductPagination({ totalPages }: { totalPages: number }) {

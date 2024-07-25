@@ -1,7 +1,7 @@
 import Header from "@/components/header";
-import ProductCard from "@/components/products/product-card";
-import SearchProduct from "@/components/products/search-product";
-import ProductPagination from "@/components/products/product-pagination";
+import ProductCard from "@/z-drafts/old-products-component/product-card";
+import SearchProduct from "@/z-drafts/old-products-component/search-product";
+import ProductPagination from "@/z-drafts/old-products-component/product-pagination";
 
 export default function ProductPage() {
   const totalProducts = 100;
@@ -17,7 +17,7 @@ export default function ProductPage() {
           {Array(18)
             .fill("")
             .map((_, index) => (
-              <ProductCard key={index} />
+              <ProductCard key={index} name="" image=""/>
             ))}
         </div>
         <div className="my-2">

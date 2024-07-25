@@ -1,0 +1,103 @@
+export const products = [
+  {
+    title: "Cements",
+    src: "/images/products/cement.jpg",
+    description: "",
+    variants: ["Apo", "Republic", "Mabuhay"],
+    sizes: [""],
+    colors: [""],
+  },
+
+  {
+    title: "Plywoods & Plyboards",
+    src: "/images/products/wood.jpg",
+    description: "",
+    variants: [
+      "Mariner Plywood 1/2",
+      "Mariner Plywood 3/16",
+      "Mariner Plywood 3/4",
+      "Marine 3/4",
+      "Plyboard 3/4",
+      "Ordinary 1/2",
+      "Ordinary 1/4",
+    ],
+    sizes: [""],
+    colors: [""],
+  },
+
+  {
+    title: "Steel bars",
+    src: "/images/products/steelbars.jpg",
+    description: "",
+    variants: [""],
+    sizes: ["8mm", "9mm", "10mm", "12mm", "16mm"],
+    colors: [""],
+  },
+
+  {
+    title: "Roofs",
+    src: "/images/products/roofs.jpg",
+    description: "",
+    variants: ["Cladding", "Spandrell"],
+    colors: ["White", "Beige", "Apple", "Green", "Dark", "Wood", "Light"],
+    sizes: [""],
+  },
+
+  {
+    title: "Paints",
+    src: "/images/products/paints.jpg",
+    description: "Wala ko kabalo sa mga brands bro, edm nalang ang list",
+    variants: [""],
+    sizes: [""],
+    colors: [""],
+  },
+
+  {
+    title: "Asorted A",
+    src: "/images/products/asorted-1.jpg",
+    description: "",
+    variants: [""],
+    sizes: [""],
+    colors: [""],
+  },
+  {
+    title: "Asorted B",
+    src: "/images/products/asorted-2.jpg",
+    description: "",
+    variants: [""],
+    sizes: [""],
+    colors: [""],
+  },
+  {
+    title: "Asorted C",
+    src: "/images/products/asorted-3.jpg",
+    description: "",
+    variants: [""],
+    sizes: [""],
+    colors: [""],
+  },
+  {
+    title: "Asorted D",
+    src: "/images/products/asorted-4.jpg",
+    description: "",
+    variants: [""],
+    sizes: [""],
+    colors: [""],
+  },
+  {
+    title: "Asorted E",
+    src: "/images/products/asorted-5.jpg",
+    description: "",
+    variants: [""],
+    sizes: [""],
+    colors: [""],
+  },
+  {
+    title: "Asorted F",
+    src: "/images/products/asorted-6.jpg",
+    description: "",
+    variants: [""],
+    sizes: [""],
+    colors: [""],
+  },
+];

@@ -8,9 +8,9 @@ import Link from "next/link";
 
 export const AboutImages = () => {
   const images = [
-    "/images/about-1.jpg",
-    "/images/about-3.jpg",
-    "/images/about-2.jpg",
+    "/images/about/about-1.jpg",
+    "/images/about/about-3.jpg",
+    "/images/about/about-2.jpg",
   ];
 
   const imageVariants = {
@@ -50,8 +50,9 @@ export const AboutImages = () => {
         ))}
       </div>
 
-      <div className="absolute left-0 z-[100] inset-y-0 w-10 bg-gradient-to-r from-white dark:from-black to-transparent  h-full pointer-events-none" />
-      <div className="absolute right-0 z-[100] inset-y-0 w-10 bg-gradient-to-l from-white dark:from-black  to-transparent h-full pointer-events-none" />
+        {/* white mask side by side */}
+      {/* <div className="absolute left-0 z-[100] inset-y-0 w-10 bg-gradient-to-r from-white dark:from-black to-transparent  h-full pointer-events-none" />
+      <div className="absolute right-0 z-[100] inset-y-0 w-10 bg-gradient-to-l from-white dark:from-black  to-transparent h-full pointer-events-none" /> */}
 
     </div>
   );
