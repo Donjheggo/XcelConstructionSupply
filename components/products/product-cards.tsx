@@ -45,6 +45,7 @@ export default function ProductCards() {
           />
         )}
       </AnimatePresence>
+
       <AnimatePresence>
         {active && typeof active === "object" ? (
           <div className="m-2 fixed inset-0 overflow-y-auto grid place-items-center z-[100]">
@@ -53,8 +54,10 @@ export default function ProductCards() {
               ref={ref}
               className="w-full max-w-[500px] md:h-fit max-h-[100%] flex flex-col bg-white dark:bg-neutral-900 rounded-xl overflow-hidden"
             >
-              <motion.div layoutId={`image-${active.title}-${id}`}>
-                <div className="relative">
+              
+              {/* Card Image */}
+              <div className="relative">
+                <motion.div layoutId={`image-${active.title}-${id}`}>
                   <Image
                     priority
                     width={1000}
@@ -83,8 +86,10 @@ export default function ProductCards() {
                   >
                     <CloseIcon />
                   </motion.button>
-                </div>
-              </motion.div>
+                </motion.div>
+              </div>
+
+              {/* Card description */}
               <div className="flex justify-center items-center p-4">
                 <motion.h3
                   layoutId={`title-${active.title}-${id}`}
@@ -113,11 +118,13 @@ export default function ProductCards() {
           </div>
         ) : null}
       </AnimatePresence>
+
+      {/* Cards list */}
       <ul className="mx-auto w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-start gap-2">
         {products.map((card, index) => (
           <motion.div
             layoutId={`card-${card.title}-${id}`}
-            key={card.title}
+            key={index}
             onClick={() => setActive(card)}
             className="p-4 flex flex-col hover:bg-stone-200 dark:hover:bg-neutral-800 rounded-xl cursor-pointer"
           >
