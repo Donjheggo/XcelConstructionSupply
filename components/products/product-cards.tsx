@@ -51,7 +51,7 @@ export default function ProductCards() {
             <motion.div
               layoutId={`card-${active.title}-${id}`}
               ref={ref}
-              className="w-full max-w-[500px] h-auto md:h-fit max-h-[100%] flex flex-col bg-white dark:bg-neutral-900 rounded-xl overflow-hidden"
+              className="w-full max-w-[500px] h-auto md:h-fit max-h-[90%] flex flex-col bg-white dark:bg-neutral-900 rounded-xl overflow-hidden"
             >
               <motion.div layoutId={`image-${active.title}-${id}`}>
                 <div className="relative">
@@ -61,7 +61,7 @@ export default function ProductCards() {
                     height={2000}
                     src={active.src}
                     alt={active.title}
-                    className="w-full h-auto sm:rounded-tr-lg sm:rounded-tl-lg object-cover object-top"
+                    className="w-full h-auto max-h-[60vh] sm:rounded-tr-lg sm:rounded-tl-lg object-cover object-top"
                   />
                   <motion.button
                     key={`button-${active.title}-${id}`}
