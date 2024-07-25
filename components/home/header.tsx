@@ -25,6 +25,7 @@ export default function Header() {
 
   const navlinks = [
     { name: "About", href: "/#about" },
+    { name: "Address", href: "/#address" },
     { name: "Contact", href: "/#contact" },
     { name: "Products", href: "/products" },
   ];
@@ -39,7 +40,7 @@ export default function Header() {
     >
       <div className="container max-w-screen-2xl flex items-center h-14">
         <div className="mr-4 flex">
-          <Link className="space-x-2 lg:mr-6" href="/">
+          <Link className="space-x-2 mr-2 lg:mr-6" href="/">
             <Image src={logo} alt="nav-logo" width={50} />
           </Link>
           <nav className="flex items-center gap-4 text-sm lg:gap-6">
