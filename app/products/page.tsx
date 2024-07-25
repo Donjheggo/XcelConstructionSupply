@@ -1,4 +1,4 @@
-import Header from "@/components/home/header";
+import Header from "@/components/header";
 import ProductCard from "@/components/products/product-card";
 import SearchProduct from "@/components/products/search-product";
 import ProductPagination from "@/components/products/product-pagination";
