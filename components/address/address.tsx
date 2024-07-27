@@ -20,7 +20,7 @@ export default function Address() {
             title="Google Maps"
           ></iframe>
         </div>
-        <div className="flex flex-col justify-center gap-5">
+        <div className="flex flex-col justify-center gap-5 pt-5 md:pt-0">
           <p className="xl:text-lg text-stone-700 flex items-center">
             <FaMapLocationDot className="text-2xl"/>
             <span className="ml-4">
