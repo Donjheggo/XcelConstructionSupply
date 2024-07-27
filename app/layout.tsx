@@ -23,9 +23,9 @@ export default function RootLayout({
       />
       <meta
         property="og:image"
-        content="https://xcs.vercel.app/images/meta-image.jpg"
+        content="https://xcs-eta.vercel.app/images/meta-image.jpg"
       />
-      <meta property="og:url" content="https://xcs.vercel.app" />
+      <meta property="og:url" content="https://xcs-eta.vercel.app" />
       <meta name="keywords" content="acoutic, artist, music" />
       <body className={inter.className}>{children}</body>
     </html>
