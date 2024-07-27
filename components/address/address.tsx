@@ -45,7 +45,7 @@ export default function Address() {
           </p>
           <p className="xl:text-lg text-stone-700 flex items-center">
             <FaFacebook className="text-2xl"/>
-            <a href="https://www.facebook.com/XcelConstructionSupply" target="_blank" className="ml-4 underline">XcelConstructionSupply</a>
+            <a href="https://www.facebook.com/XcelConstructionSupply" target="_blank" className="ml-4">XcelConstructionSupply</a>
           </p>
         </div>
       </div>
