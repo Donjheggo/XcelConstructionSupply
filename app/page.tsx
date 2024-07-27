@@ -3,6 +3,7 @@ import Footer from "@/components/footer";
 import Hero from "@/components/hero/hero";
 import About from "@/components/about/about";
 import Products from "@/components/products/products";
+import Address from "@/components/address/address";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <About />
       <Products />
+      <Address />
       <Footer />
     </main>
   );
