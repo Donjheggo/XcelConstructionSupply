@@ -6,7 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Xcel Construction Supply",
-  description: "",
+  description:
+    "XCS is a dealer of construction and hardware materials, electrical and plumbing supplies, paints, chemicals, and more.",
 };
 
 export default function RootLayout({
@@ -16,6 +17,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta
+        property="og:description"
+        content="XCS is a dealer of construction and hardware materials, electrical and plumbing supplies, paints, chemicals, and more."
+      />
+      <meta
+        property="og:image"
+        content="https://xcs.vercel.app/images/meta-image.jpg"
+      />
+      <meta property="og:url" content="https://xcs.vercel.app" />
+      <meta name="keywords" content="acoutic, artist, music" />
       <body className={inter.className}>{children}</body>
     </html>
   );
