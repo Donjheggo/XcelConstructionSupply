@@ -8,11 +8,11 @@ import Image from "next/image";
 const images = [
   {
     src: "/images/hero/hammer.png",
-    className: "absolute bottom-16 left-28",
+    className: "absolute bottom-16 left-10 md:left-28",
   },
   {
     src: "/images/hero/paint.png",
-    className: "absolute bottom-16 right-28",
+    className: "absolute bottom-16 right-10 md:right-28",
   },
   {
     src: "/images/hero/saw.png",
