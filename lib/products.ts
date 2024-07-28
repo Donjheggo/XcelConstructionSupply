@@ -46,7 +46,7 @@ export const products = [
   {
     title: "Paints",
     src: "/images/products/paints.jpg",
-    description: "Wala ko kabalo sa mga brands bro, edm nalang ang list",
+    description: "",
     variants: [""],
     sizes: [""],
     colors: [""],
