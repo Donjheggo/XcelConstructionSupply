@@ -42,7 +42,7 @@ export default function Header() {
           <Link className="space-x-2 mr-2 lg:mr-6" href="/">
             <Image src={logo} alt="nav-logo" width={50} />
           </Link>
-          <nav className="flex items-center gap-4 text-sm lg:gap-6">
+          <nav className="flex items-center pl-2 md:pl-0 gap-4 text-sm lg:gap-6">
             {navlinks.map((item, index) => (
               <Link
                 key={index}
